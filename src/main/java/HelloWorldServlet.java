@@ -4,8 +4,9 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 
+
 public class HelloWorldServlet extends HttpServlet {
-    //                            these are both classes the first is request and then response
+    // these are both classes the first is request and then response
     protected void doGet(HttpServletRequest req, HttpServletResponse res) throws IOException {
 
         String a = "";
